@@ -1,22 +1,96 @@
-@charset "UTF-8";
-/* CSS Document */
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
+#logo {
+	margin: 26px 26px 26px 0px;
+	padding: 0px;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+/*Navigation style*/
+#navigation {
+	display: none;
+}
+#logoet {
+	display: none;
+}
+.topnav {
+ 	overflow: hidden;
+ 	position: relative;
+}
+.topnav #myLinks {
+ 	display: none;
+	float: right;
+}
+.topnav a {
+ 	color: black;
+ 	padding: 10px 12px;
+ 	text-decoration: black;
+ 	font-size: 20px;
+ 	display: block;
+}
+.topnav a.icon {
+	/*background: #749CD3;*/
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;	
+}
+.active {
+	/*background-color: #749CD3;*/
+	width: 25%;
+	height: auto;
+}
 
-	.topnav a {
-		float: left;
-	}
+
+
+body{
+	font-family: "Lato";
+}
+.container{
+	padding:0.01em 16px;
+	text-align: center;
+}
+
+.content{margin-left:auto;margin-right:auto}
+.content{max-width:980px}
+
+.center{
+	display:inline-block;
+	width:auto;
+ 	text-align: center;
+}
+
+.wide{letter-spacing:4px}
+
+.opacity
+{opacity:0.60}
+
+.justify{
+	text-align:justify!important
+}
+
+
+.row-padding{
+	padding:0 8px}
+
+
+.light-grey{
+	color:#000!important;background-color:#f1f1f1!important}
+
+.padding-64{
+	padding-top:64px!important;
+	padding-bottom:64px!important}
+
+.xlarge{
+	font-size:24px!important}
+
+
+.third{float: left;
+flex: 100%;
+        max-width: 100%}
+
+.hover-opacity:hover{
+	opacity:0.60}
+
+
+
+
+
+

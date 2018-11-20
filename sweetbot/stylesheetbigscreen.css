@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/*Media query "indlejret" i dette stylesheet. Låser layotet ved 1200px bredde*/
+/*Media query "indlejret" i dette stylesheet. Låser layotet ved 1500px bredde*/
 
 @media screen and (min-width: 1500px){
 	.container{
@@ -9,77 +9,60 @@
 		margin: 0 auto;
 	}
 }
-/*fjern container ( layover tekst*/
-.container, centeredtop, centered, centeredbottom{
-	display: none;
-}
-
-.tekst{
-	display: block;
-	padding: 7%;
-	float: lefts;
-	top: 65%;
-    left: 50%;
-}
 
 * {
     box-sizing: border-box;
 }
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 5%;
+
+/* Navigation og logo fjernes */
+#logo {
+	display: none;
+}
+.topnav a.icon {
+  display: none;	
 }
 
-/* Create three equal columns that sits next to each other */
+/* Navigation til desktop tilføjes*/ 
+#logoet {
+	display: inline;
+	margin: 26px 26px 26px 0px;
+	padding: 0px;
+}
+#navigation {
+	display: inline;
+	margin-right: 2%;
+	margin-top: 26px;
+	padding-top: 2%;
+	width: 70%;
+	flex-wrap: wrap;
+	float: right;
+}
+#navigation li {
+	list-style: none;
+	display: inline; 
+}
+#navigation a {
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 1.3em;
+	margin: 0 1%;
+	float: right;
+}
+
+#hotbotlogo img {
+	width: 12%;
+	height: auto;
+}
+
+/* Billeder */
 .column {
-    -ms-flex: 33%; /* IE10 */
     flex: 33%;
     max-width: 33%;
     padding: 0 1%;
 }
 
-.column img {
+.column .menuimg {
     margin-top: 10px;
     vertical-align: middle;
 }
-
-/*Navigation*/
-mylinks{
-	display: inline-block;
-}
-.topnav a.icon {
-  display: none;
-	
-}
-
-.underpunkt{
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 3% 3%;
-  font-size: 17px;
-}
-.topnav a {
-  color: black;
-  padding: 10px 12px;
-  text-decoration: black;
-  font-size: 20px;
-  display: block;
-	
-
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-
-
-
-
-

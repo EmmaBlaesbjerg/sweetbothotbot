@@ -2,21 +2,20 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="stylesheetmobile.css">
+<link rel="stylesheet" href="stylesheetmobile.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="stylesheetbigscreen.css" media="screen and (min-width: 800px)">
+<link rel="stylesheet" href="stylesheetbigscreen.css" media="screen and (min-width: 1000px)">
+<title>Sweetbot</title>
 </head>
 <body>
-
-
-
-<!-- Top Navigation Menu -->
+	
+<!-- Top Navigation Menu - mobile -->
 <div class="topnav">
-  <a href="#home" class="active"><img src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+  <a href="#home" class="active"><img id="logo" src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
   <div id="myLinks">
 	<a href="#" class="underpunkt">Web design</a>
-	  <a href="#" class="underpunkt">Internet security</a>
-	  <a href="#" class="underpunkt">Branding</a>
+	<a href="#" class="underpunkt">Internet security</a>
+	<a href="#" class="underpunkt">Branding</a>
     <a href="#" class="underpunkt">Om os</a>
     <a href="#" class="underpunkt">Kontakt</a>
     <a href="#" class="underpunkt">HotBot</a>
@@ -26,33 +25,42 @@
   </a>
 </div>
 
-
-
-	<!-- Photo Grid -->
-<div class="row"> 
-
-	 
-	 <div class="column">
-		 <div class="centeredtop"><div class="container"><h1>Web design</h1></div></div>
-       <img src="images/webdesign.jpeg" width="100%" alt=""/>
-<div class="tekst"> <h1>Web design</h1></div>
-  </div>
-	 
-	 
-  <div class="column">
-	  <div class="centered"><div class="container"><h1>Internet security</h1></div></div>
-     <img src="images/internetseq.jpeg" width="100%" alt=""/>
-<div class="tekst"><h1>Internet security</h1></div>
-  </div> 
-	 
-	 
-  <div class="column">
-	  <div class="centeredbottom"><div class="container"><h1>Branding</h1></div></div>
-   <img src="images/branding.jpeg" width="100%" alt=""/>
-	</div>
-	<div class="tekst"><h1>Branding</h1></div>
+<!-- Top navigation - desktop -->
+<div>
+	<a href="#home" class="active"><img id="logoet" src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+	<ul id="navigation">
+		<li>
+			<a href="#" class="menu" id="hotbotlogo"><img src="images/hotbotlogo.png" alt=""/></a>
+		</li>
+		<li>
+			<a href="#" class="menu">Kontakt</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Om os </a>
+		</li>
+		<li>
+			<a href="#" class="menu">Branding</a>
+		</li>
+		<li>
+			<a href="#" class="menu">internet security</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Web design</a>
+		</li>
+	</ul>
 </div>
-
+	
+<!-- Photo Grid -->
+<div class="row container">  
+	<div class="column">
+        <img class="menuimg" src="images/index/46510915_2302045690035971_5251365953433763840_n.png" width="100%" height="100%" alt="web design"/>
+	</div> 	 
+	<div class="column">
+    <img src="images/index/46492243_287301481897977_6251123190483910656_n.png" width="100%" height="100%" alt=""/> </div> 	 	 
+	<div class="column">
+  		<img class="menuimg" src="images/index/46514115_2179258439058991_2797224389278433280_n.png" width="100%" height="100%" alt="branding"/>
+	</div>
+</div>
 
 <script>
 function myFunction() {
@@ -64,6 +72,5 @@ function myFunction() {
   }
 }
 </script>
-
 </body>
 </html>
