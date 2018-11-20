@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="stylesheetmobile.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="stylesheetbigscreen.css" media="screen and (min-width: 800px)">
+</head>
+<body>
+
+
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><img src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+  <div id="myLinks">
+	<a href="#" class="underpunkt">Web design</a>
+	  <a href="#" class="underpunkt">Internet security</a>
+	  <a href="#" class="underpunkt">Branding</a>
+    <a href="#" class="underpunkt">Om os</a>
+    <a href="#" class="underpunkt">Kontakt</a>
+    <a href="#" class="underpunkt">HotBot</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+	<!-- Photo Grid -->
+<div class="row"> 
+
+	 
+	 <div class="column">
+		 <div class="centeredtop"><div class="container"><h1>Web design</h1></div></div>
+    <img class="menu" src="images/webdesign.jpeg" style="width:100%">
+	 <div class="tekst"> <h1>Web design</h1></div>
+  </div>
+	 
+	 
+  <div class="column">
+	  <div class="centered"><div class="container"><h1>Internet security</h1></div></div>
+    <img class="menu" src="images/internetseq.jpeg" style="width:100%">
+     <div class="tekst"><h1>Internet security</h1></div>
+  </div> 
+	 
+	 
+  <div class="column">
+	  <div class="centeredbottom"><div class="container"><h1>Branding</h1></div></div>
+    <img class="menu" src="images/branding.jpeg" style="width:100%">
+	</div>
+	<div class="tekst"><h1>Branding</h1></div>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
