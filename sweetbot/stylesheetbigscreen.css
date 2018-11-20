@@ -55,14 +55,10 @@
 	height: auto;
 }
 
-/* Billeder */
-.column {
+
+.third {
     flex: 33%;
     max-width: 33%;
     padding: 0 1%;
 }
 
-.column .menuimg {
-    margin-top: 10px;
-    vertical-align: middle;
-}

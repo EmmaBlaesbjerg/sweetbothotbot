@@ -48,8 +48,12 @@ body{
 	text-align: center;
 }
 
-.content{margin-left:auto;margin-right:auto}
-.content{max-width:980px}
+.content{
+	margin-left:auto;
+	margin-right:auto;
+	max-width:980px;
+	text-align: center;
+}
 
 .center{
 	display:inline-block;
@@ -89,7 +93,11 @@ flex: 100%;
 .hover-opacity:hover{
 	opacity:0.60}
 
-
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 
 
 

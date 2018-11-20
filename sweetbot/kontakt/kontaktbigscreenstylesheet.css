@@ -50,18 +50,7 @@
 	float: right;
 }
 
-#hotbotlogo{
-    padding: 5px;
-    max-width: 10px;
-   
+#hotbotlogo img {
+	width: 12%;
+	height: auto;
 }
-
-.third {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 1%;
-}
-
-
-
-

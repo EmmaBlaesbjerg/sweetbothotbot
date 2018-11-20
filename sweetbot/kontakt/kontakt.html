@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+<link rel="stylesheet" href="kontaktmobilestylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="kontaktbigscreenstylesheet.css" media="screen and (min-width: 1000px)">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+
+	
+	
+<title>Kontakt</title>
+</head>
+<body>
+	
+<!-- Top Navigation Menu - mobile -->
+<div class="topnav">
+  <a href="#home" class="active"><img id="logo" src="../images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+  <div id="myLinks">
+	<a href="#" class="underpunkt">Web design</a>
+	<a href="#" class="underpunkt">Internet security</a>
+	<a href="#" class="underpunkt">Branding</a>
+    <a href="#" class="underpunkt">Om os</a>
+    <a href="#" class="underpunkt">Kontakt</a>
+    <a href="#" class="underpunkt">HotBot</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- Top navigation - desktop -->
+<div>
+	<a href="#home" class="active"><img id="logoet" src="../images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
+	<ul id="navigation">
+		<li>
+			<a href="#" class="menu" id="hotbotlogo">HotBot</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Kontakt</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Om os </a>
+		</li>
+		<li>
+			<a href="#" class="menu">Branding</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Internet security</a>
+		</li>
+		<li>
+			<a href="#" class="menu">Web design</a>
+		</li>
+	</ul>
+</div>
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+	
+ <!-- The Contact Section -->
+  <div class="container content padding-64" style="max-width:800px" id="contact">
+    <h2 class="wide center">CONTACT</h2>
+    <p class="opacity center"><i>Interesseret? Drop a note!</i></p>
+    <div class="row padding-32">
+      <div class="col.m6 large margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Lyngby, Danmark<br>
+        <i class="fa fa-id-badge" style="width:30px"></i> CEO: Merete Geldermann | Marc Kluge<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mli@cphbusiness.dk | klu@cphbusiness.dk<br>
+      </div>
+      <div class="col.m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="row-padding" style="margin:0 -16px 8px -16px">
+            <div class="half">
+              <input class="input border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="half">
+              <input class="input border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="input border" type="text" placeholder="Message" required name="Message">
+          <button class="button black section right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+	
+	
+	
+	
+	
+</body>
+</html>

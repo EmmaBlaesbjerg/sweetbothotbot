@@ -2,17 +2,15 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="hotbotstylesheetmobile.css">
-	
-<link rel="stylesheet" href="hotbotstylesheetbigscreen.css" media="screen and (min-width: 1000px)">
+	<link rel="stylesheet" href="hotbotstylesheetbigscreen.css" media="screen and (min-width: 1000px)">
 	
 	
 	<!--Tekst formater-->
 	
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 <title>Sweetbot</title>
 </head>
@@ -39,7 +37,7 @@
 	<a href="#home" class="active"><img id="logoet" src="images/sweetbotlogo.png" width="333" height="73" alt=""/></a>
 	<ul id="navigation">
 		<li>
-			<a href="#" class="menu" id="hotbotlogo"><img src="images/hotbotlogo.png" alt=""/></a>
+			<a href="#" class="menu" id="hotbotlogo">HotBot</a>
 		</li>
 		<li>
 			<a href="#" class="menu">Kontakt</a>
@@ -51,11 +49,12 @@
 			<a href="#" class="menu">Branding</a>
 		</li>
 		<li>
-			<a href="#" class="menu">internet security</a>
+			<a href="#" class="menu">Internet security</a>
 		</li>
 		<li>
 			<a href="#" class="menu">Web design</a>
 		</li>
+		
 	</ul>
 </div>
 		
@@ -74,11 +73,11 @@ function myFunction() {
 <div class="content" style="max-width:2000px;margin-top:46px">
 
   <!-- logo -->
-<!--<section>
-  <img class="mySlides" src="images/hotbotsidelogo.png"
-  style="width:25%">
+<section>
+  <img class="responsive" src="images/hotbotsidelogo.png"
+  width="50px" height="50px">
 </section>
-  -->
+  
   
  <!-- Description -->
 <section class="container center content" style="max-width:600px">
@@ -113,26 +112,10 @@ function myFunction() {
   <i class="hover-opacity"><h6>klu@cphbusiness.dk</h6></i>
   <i class="hover-opacity"><h6>mli@cphbusiness.dk</h6></i>
   
-  
 </footer>
 	
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
 
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}
-    x[myIndex-1].style.display = "block";
-    setTimeout(carousel, 3000);
-}
-</script>
+
 	
 </body>
 </html>
