@@ -22,14 +22,10 @@
   display: none;	
 }
 
-.topnav {
-	display: none;
-}
-
 /* Navigation til desktop tilføjes*/ 
 #logoet {
 	display: inline;
-	margin: 26px 26px 35px 0px;
+	margin: 26px 26px 26px 0px;
 	padding: 0px;
 }
 #navigation {
@@ -54,21 +50,13 @@
 	float: right;
 }
 
-#hotbotlogo img {
-	width: 12%;
-	height: auto;
+#hotbotlogo{
+    padding: 5px;
+    max-width: 10px;
+   
 }
 
 
-.third {
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 1%;
-}
 
-
-.quarter{
-	float:left;
-	width:100%;
-	width:24.99999%;
-	padding:0 8px}
+.hide-small{
+	display: block;

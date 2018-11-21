@@ -2,13 +2,14 @@
 /* CSS Document */
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	
+	font-family: 'Lato', sans-serif;
 	margin: 0px;
 	padding: 0px;
 	/*background-color: #749CD3;*/
 }
 #logo {
-	margin: 26px 26px 26px 0px;
+	margin: 26px 26px 35px 0px;
 	padding: 0px;
 }
 
@@ -25,7 +26,7 @@ body {
 }
 .topnav #myLinks {
  	display: none;
-	float: right;
+	text-align: center;
 }
 .topnav a {
  	color: black;
@@ -77,10 +78,12 @@ body{
  	text-align: center;
 }
 
-.wide{letter-spacing:4px}
+.wide{
+	letter-spacing:4px;
+	font-family: "Lato";}
 
-.opacity
-{opacity:0.60}
+.opacity{
+	opacity:0.60}
 
 .justify{
 	text-align:justify!important
@@ -88,11 +91,12 @@ body{
 
 
 .row-padding{
-	padding:0 8px}
+	padding:0 18px}
 
 
 .light-grey{
-	color:#000!important;background-color:#f1f1f1!important}
+	color:#000!important;
+	background-color:#f1f1f1!important}
 
 .padding-64{
 	padding-top:64px!important;
@@ -102,9 +106,10 @@ body{
 	font-size:24px!important}
 
 
-.third{float: left;
-flex: 100%;
-        max-width: 100%}
+.third{
+	float: left;
+	flex: 100%;
+    max-width: 100%}
 
 .hover-opacity:hover{
 	opacity:0.60}
@@ -114,3 +119,46 @@ flex: 100%;
     max-width: 400px;
     height: auto;
 }
+
+.quarter{
+	float:left;
+	width:100%;
+	padding:0 8px}
+
+.margin-bottom{
+	margin-bottom:16px!important}
+
+.jumbo{
+	font-size:64px!important}
+
+.large{
+	font-size:18px!important}
+
+
+
+
+
+
+.footer{
+	text-align: center;
+	font-size:24px!important;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:980px;
+	width:auto;
+}
+
+#footer{
+	
+	bottom: 0;
+	width: 100%;
+	
+}
+
+
+
+
+
+
+
+

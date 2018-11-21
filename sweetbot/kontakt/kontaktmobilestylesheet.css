@@ -24,7 +24,7 @@ body {
 }
 .topnav #myLinks {
  	display: none;
-	float: right;
+	text-align: center;
 }
 .topnav a {
  	color: black;
