@@ -63,5 +63,12 @@
 }
 
 
+.start{
+	display: flex;
+	align-items: center;
+	
+	left: 47%;
+	position: relative;
+}
 
 

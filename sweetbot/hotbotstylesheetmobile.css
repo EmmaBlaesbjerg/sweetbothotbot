@@ -101,8 +101,27 @@ flex: 100%;
     height: auto;
 }
 
+/*Start knap style*/
 
+.start{
+	display: flex;
+	align-items: center;
+	
+	left: 40%;
+	position: relative;
+}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+	margin-bottom: 15px;
+	
+}
 
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
 
 .footer{
 	text-align: center;
